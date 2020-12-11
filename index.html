@@ -33,7 +33,7 @@
 
 <body>
 
-    <div class="hero"></div>3
+    <div class="hero"></div>
 <!-- Change: class="content" to class="content-wrapper". It holds the 3 main text sections -->
     <div class="content-wrapper">
   <!-- Change: class="search-engine-optimization" to class="content". This encompassing class will replace indivual classes with in the wrapper to reduce repedative CSS styling.  -->
@@ -47,7 +47,7 @@
         </div>
   <!-- Change: class="online-reputation-management" to class="content". This encompassing class will replace indivual classes with in the wrapper to reduce repedative CSS styling.  -->
   <!-- removed id="online-reputation-management". It was nver called in the CSS. -->
-        <div  class="content">
+        <div class="content">
             <img src="assets/images/online-reputation-management.jpg" class="float-right" />
 <!-- h2 looks good its equal to the previuos h2 element in the html hierarchy   ------------------------------------->
             <h2>Online Reputation Management</h2>
@@ -66,8 +66,9 @@
             </p>
         </div>
     </div>
-    <div class="benefits">
-        <div class="benefit-lead">
+<!-- Change: class="benefit-lead" to class="benefit-wrapper". It holds the 3 sub text sections -->
+    <div class="benefit-wrapper">
+        <div class="benefit">
 <!-- h3 looks apropriate for the headers on the side ----------------------->
             <h3>Lead Generation</h3>
             <img src="assets/images/lead-generation.png" />
@@ -75,7 +76,7 @@
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
         </div>
-        <div class="benefit-brand">
+        <div class="benefit">
 <!-- h3 looks good its equal to the previuos h3 element in the html hierarchy----------------------->
             <h3>Brand Awareness</h3>
             <img src="assets/images/brand-awareness.png" />
@@ -83,7 +84,7 @@
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
         </div>
-        <div class="benefit-cost">
+        <div class="benefit">
 <!-- h3 looks good its equal to the previuos h3 element in the html hierarchy----------------------->
             <h3>Cost Management</h3>
             <img src="assets/images/cost-management.png"></img>

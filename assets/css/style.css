@@ -8,6 +8,21 @@ body {
     background-color: #d9dcd6;
 }
 
+h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+  }
+h3 {
+      margin-bottom: 10px;
+      text-align: center;
+      }
+h4 {
+         font-size: 20px;
+     }
 
 a {
     color: #ffffff;
@@ -17,21 +32,13 @@ a {
 p {
     font-size: 16px;
 }
-h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-  }
+
 
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
-}
-
-.header h1 {
-    display: inline-block;
-    font-size: 48px;
 }
 
 .header h1 .seo {
@@ -45,11 +52,6 @@ h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
-/* .header div ul {
-    list-style-type: none;
-} */
-/* included in the section below */
 
 .header div ul li {
     display: inline-block;
@@ -97,9 +99,7 @@ h2 {
     margin-left: 25px;
 }
 
-
-
-.benefits {
+.benefit-wrapper {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -110,22 +110,31 @@ h2 {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
+.benefit img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 }
 
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
 }
 
-.benefit-lead h3 {
+
+
+/* .benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+} */
+
+/* .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -138,9 +147,9 @@ h2 {
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
-}
+} */
 
-.benefit-lead img {
+/* .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -156,18 +165,17 @@ h2 {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
+} */
 
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
 
-.footer h4 {
-    font-size: 20px;
-}
+
+
+/* commented out and repeated css elimated below  commented out and repeated css elimated below */
+
+/* .header div ul {
+    list-style-type: none;
+} */
+/* included in the section below */
 
 /* .online-reputation-management {
     margin-bottom: 20px;
