@@ -17,6 +17,10 @@ a {
 p {
     font-size: 16px;
 }
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+  }
 
 .header {
     padding: 20px;
@@ -62,11 +66,26 @@ p {
     background-position: center;
 }
 
+/* Changed content class to wrapper. It holds the 3 main text sections */
 .content-wrapper {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
+.content {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.content img {
+    max-height: 200px;
+}
+
 
 .float-left {
     float: left;
@@ -139,16 +158,18 @@ p {
     max-width: 150px;
 }
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
 }
 
-.online-reputation-management {
+.footer h4 {
+    font-size: 20px;
+}
+
+/* .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -164,9 +185,9 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
+} */
 
-.search-engine-optimization img {
+/* .search-engine-optimization img {
     max-height: 200px;
 }
 
@@ -191,15 +212,4 @@ p {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
-
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-.footer h4 {
-    font-size: 20px;
-}
+} */
